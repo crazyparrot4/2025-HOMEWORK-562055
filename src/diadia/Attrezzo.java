@@ -1,7 +1,7 @@
 package diadia;
 
 //ciao
-
+//ciao da giovanni
 
 /**
  * Una semplice classe che modella un attrezzo.
