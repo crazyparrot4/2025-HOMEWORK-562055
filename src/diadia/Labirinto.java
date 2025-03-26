@@ -2,8 +2,12 @@ package diadia;
 
 public class Labirinto {
 
-	Stanza stanzaIngresso=new Stanza("ingresso");
-	Stanza stanzaVincente=new Stanza("uscita");
+	private Stanza stanzaIngresso;
+	private Stanza stanzaVincente;
+	
+	public Labirinto() {
+		init();
+	}
 	
 	private void init() {
 		/* crea gli attrezzi */
@@ -39,5 +43,13 @@ public class Labirinto {
         stanzaIngresso = atrio;  
 		stanzaVincente = biblioteca;
 
+	}
+	
+	public Stanza getStanzaIngresso() {
+		return stanzaIngresso;
+	}
+	
+	public Stanza getStanzaVincente() {
+		return stanzaVincente;
 	}
 }
